@@ -1,0 +1,10 @@
+# Archivos de credenciales y variables privadas
+.env
+*.env
+*.env.txt
+TKN*.txt
+
+# Archivos de logs y temporales
+*.log
+node_modules/
+.vscode/

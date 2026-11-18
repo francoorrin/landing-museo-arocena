@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fdf8f6;}body{overscroll-behavior:none;-webkit-font-smoothing:antialiased;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed-variant": "#6a3b00", "outline-variant": "#dec0b9", "on-primary-fixed-variant": "#85230d", "primary-container": "#b3442b", "tertiary-container": "#925c21", "secondary": "#655d59", "secondary-fixed-dim": "#d0c4bf", "surface-container-high": "#ece7e5", "on-primary-container": "#ffe2dc", "on-surface": "#1c1b1a", "surface": "#fdf8f6", "surface-container-highest": "#e6e2e0", "inverse-surface": "#31302f", "error": "#ba1a1a", "background": "#fdf8f6", "outline": "#8b716c", "on-background": "#1c1b1a", "tertiary": "#764409", "on-secondary-container": "#69615d", "surface-tint": "#a63a22", "tertiary-fixed": "#ffdcbf", "inverse-on-surface": "#f4f0ee", "surface-dim": "#ddd9d7", "primary-fixed": "#ffdad2", "on-tertiary": "#ffffff", "secondary-fixed": "#ece0db", "on-error-container": "#93000a", "error-container": "#ffdad6", "surface-bright": "#fdf8f6", "surface-container-lowest": "#ffffff", "on-tertiary-fixed": "#2d1600", "inverse-primary": "#ffb4a3", "surface-container": "#f1edeb", "primary": "#922d16", "surface-variant": "#e6e2e0", "primary-fixed-dim": "#ffb4a3", "secondary-container": "#e9ddd8", "on-secondary-fixed": "#201a17", "on-secondary": "#ffffff", "on-primary": "#ffffff", "on-primary-fixed": "#3d0600", "on-error": "#ffffff", "on-tertiary-container": "#ffe3cd", "surface-container-low": "#f7f3f1", "on-surface-variant": "#57423d", "tertiary-fixed-dim": "#feb874", "on-secondary-fixed-variant": "#4d4541" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-md": "1.5rem", "space-xl": "2.5rem", "margin": "1.25rem", "space-md": "1rem", "space-xs": "0.25rem", "margin-md": "2.5rem", "gutter": "1rem", "space-sm": "0.5rem", "gutter-lg": "2rem", "space-lg": "1.5rem", "margin-lg": "4rem" }, "fontFamily": { "headline-lg-mobile": ["Newsreader"], "body-lg": ["Hanken Grotesk"], "headline-xl": ["Newsreader"], "body-md": ["Hanken Grotesk"], "body-sm": ["Hanken Grotesk"], "label-lg": ["JetBrains Mono"], "label-sm": ["JetBrains Mono"], "label-md": ["JetBrains Mono"], "headline-lg": ["Newsreader"], "headline-xl-mobile": ["Newsreader"], "headline-md": ["Newsreader"] }, "fontSize": { "headline-lg-mobile": ["26px", {"lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "400"}], "body-lg": ["17px", {"lineHeight": "26px", "fontWeight": "400"}], "headline-xl": ["44px", {"lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "400"}], "body-md": ["15px", {"lineHeight": "22px", "fontWeight": "400"}], "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}], "label-lg": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "500"}], "label-sm": ["9px", {"lineHeight": "12px", "letterSpacing": "0.1em", "fontWeight": "500"}], "label-md": ["11px", {"lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "400"}], "headline-xl-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "400"}], "headline-md": ["22px", {"lineHeight": "28px", "fontWeight": "400"}] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Museo Arocena Restaurante Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrD-JYztuoAltVd-9cnUxUlfx2rBe0O03x5iR3CEj4i_YDf7ywm8JnUsl_kzFje6TyiqSOqFjEpCz8JQeTUsBPHZzEx0drbRQKsl9ZHqqO7XRTSEf22nN7hROAbyihj2qn3XoxMk2n_ha-Dry36Gzs4gDUPNzIKH2Esi1husPAKnQ0lAHz2e9kGWS2k7_8P5lAxGRif_jVRPagrB6-9ijcO_YmIop0777WrZ4ADnsUsmeQ"/><div class="flex flex-col justify-center"><div class="flex items-center gap-1.5"><span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Casino de La Laguna</span><span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Torreón</span></div><span class="font-headline-md text-headline-md leading-none text-on-surface tracking-tight">Menú</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notificaciones y Sala" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full">
+<!-- Archival Context / Curatorial Masthead -->
+<section class="px-margin pt-space-md pb-space-lg flex flex-col gap-space-sm bg-surface-container-low">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest bg-primary-fixed/60 px-2 py-0.5 rounded">
+        Exp. Temporal • Sala 4
+      </span>
+<span class="font-label-sm text-label-sm text-secondary">
+        CATÁLOGO GASTRONÓMICO
+      </span>
+</div>
+<div class="flex flex-col gap-1.5 mt-1">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Inspiración actual</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface leading-tight font-normal">
+        Tierra y Plata: <span class="italic font-normal">Mestizaje en La Laguna</span>
+</h2>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed mt-1">
+        Cada receta dialoga con los óleos virreinales, el trabajo de orfebrería novohispana y la memoria agrícola de la Comarca Lagunera.
+      </p>
+</div>
+<!-- Curator & Chef Dialogue Note -->
+<div class="mt-2 p-space-sm bg-surface-container rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">format_quote</span>
+<div class="flex flex-col">
+<p class="font-headline-md text-[14px] leading-snug italic text-on-surface-variant">
+          "El recetario no replica el pasado: descifra sus pigmentos terrosos y su devoción mineral para servirlos al paladar contemporáneo."
+        </p>
+<span class="font-label-sm text-label-sm text-secondary mt-1.5 tracking-wider">
+          CARLOS E. DÍAZ (CURADOR) &amp; ADRIANA LEAL (CHEF EJECUTIVA)
+        </span>
+</div>
+</div>
+</section>
+<!-- Sticky Sub-Nav / Categorías -->
+<section class="sticky top-16 z-30 bg-surface/95 backdrop-blur-md px-margin py-space-sm shadow-[0_2px_8px_rgba(0,0,0,0.03)]">
+<!-- Category Tabs -->
+<div class="flex items-center gap-space-sm overflow-x-auto no-scrollbar pb-1">
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all shadow-sm">
+        Entradas
+      </button>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container text-secondary hover:text-on-surface font-label-md text-label-md transition-all">
+        Platos fuertes
+      </button>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container text-secondary hover:text-on-surface font-label-md text-label-md transition-all">
+        Postres
+      </button>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container text-secondary hover:text-on-surface font-label-md text-label-md transition-all">
+        Bebidas &amp; Coctelería
+      </button>
+</div>
+<!-- Dietary Filter Pills -->
+<div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pt-2">
+<button class="shrink-0 px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm">
+        Todos (12)
+      </button>
+<button class="shrink-0 px-2.5 py-1 rounded bg-surface-container text-secondary hover:text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span>🌱</span> Vegetariano
+      </button>
+<button class="shrink-0 px-2.5 py-1 rounded bg-surface-container text-secondary hover:text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span>🌾</span> Sin gluten
+      </button>
+<button class="shrink-0 px-2.5 py-1 rounded bg-surface-container text-secondary hover:text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span>🥛</span> Sin lácteos
+      </button>
+</div>
+</section>
+<!-- Dish Cards Catalog -->
+<section class="px-margin py-space-md flex flex-col gap-space-lg">
+<!-- Card 1 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">REG. AR-01 • SALA VIRREINAL</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/50 px-2 py-0.5 rounded font-medium">🌾 Sin gluten</span>
+</div>
+<!-- Mid-fidelity Editorial Image Wireframe -->
+<div class="relative w-full aspect-[16/10] bg-surface-container-high rounded-lg overflow-hidden flex flex-col items-center justify-center group">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Artisanal blue corn gordita plated on rustic handmade novohispanic terracotta pottery, adorned with sea-salt cured shredded beef, charred xoconostle cactus fruit compote and crumbled fresh goat cheese, soft natural ambient gallery lighting, minimalist editorial culinary style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeH8gSRkgxRba9tblFV4Vn92ev617RVV7R7ohK2f87N94FzZP-6HkQMqaAvDP-YuNxmu7v2V55T0hL0lvRvpoEtAOQUkO6ol1p8I-s6xTrL-Jy8O7-R95QJAXU9Jxn6u5OSL1hCsXiHuhem9p9jl2KSRXg2e7jDu16ZTk18AfipEbftgor2P0gv60tbOq4Xra0irH5y3EJ86CJVC_i39Qd9vOCXJlSkOMIxu8yP4eU"/>
+<div class="absolute inset-0 bg-surface-dim/40 backdrop-blur-[1px] flex flex-col items-center justify-center gap-1 text-on-surface p-4 text-center pointer-events-none">
+<div class="w-8 h-8 rounded-full bg-surface-container-lowest/80 flex items-center justify-center text-primary shadow-sm mb-1">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">[ REGISTRO FOTOGRÁFICO PLATO #01 ]</span>
+<span class="font-label-sm text-[10px] text-secondary">3200 × 2000 PX • ARCHIVO AROCENA</span>
+</div>
+</div>
+<div class="flex flex-col gap-1 pt-1">
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-normal">Gordita Ceremonial de Maíz Azul</h3>
+<span class="font-label-lg text-label-lg text-primary font-medium shrink-0">$185 MXN</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+          Rellena de cecina de res artesanal curada en sal de mar, xoconostle tatemado y queso fresco de cabra de Jimulco.
+        </p>
+</div>
+<!-- Curatorial Inspiration Pill -->
+<div class="bg-surface-container-low p-2 rounded flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[18px]">palette</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">
+          Inspirado en la obra: <strong class="font-medium text-on-surface">Retablo Guadalupano (S. XVIII)</strong>
+</span>
+</div>
+<!-- Detail Trigger & Interaction -->
+<div class="flex items-center justify-between pt-2 border-t-0">
+<button class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1 transition-colors">
+<span>Ver ficha curatorial</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<button class="px-3.5 py-1.5 bg-primary-container text-on-primary rounded font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:opacity-90">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Pedir a sala</span>
+</button>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">REG. AR-02 • SALA DEL PAISAJE</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/50 px-2 py-0.5 rounded font-medium">🌾 Sin gluten</span>
+</div>
+<div class="relative w-full aspect-[16/10] bg-surface-container-high rounded-lg overflow-hidden flex flex-col items-center justify-center group">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Deep clay bowl with rich steaming northern Mexican beef broth, dried red chiles, heirloom tomatoes, and wild desert oregano sprigs with rustic pulque foam on top, soft dramatic museum chiaroscuro lighting, earth tones and copper accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdzAxQCC2DQZ6YNLH7LB2ZxCsF26_707DBU98BfOZxDAUv5Bjx_RVqsTMiNFta7XphMORSIlIicB93X8Guuhgd61nl4tRhOqSK2w7ij-AbGUPpD2rxUw6u_001rQR8_3JKsV_hZuaewXRyq5ev9Djdw35B9TIzAfqg3VZZr56GV4jqQf1CvSU1ogSnvuS8prRXVXadFlTW_pfFmf2quMsYE5kce6OBQ-wzJ3P1km_O"/>
+<div class="absolute inset-0 bg-surface-dim/40 backdrop-blur-[1px] flex flex-col items-center justify-center gap-1 text-on-surface p-4 text-center pointer-events-none">
+<div class="w-8 h-8 rounded-full bg-surface-container-lowest/80 flex items-center justify-center text-primary shadow-sm mb-1">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">[ REGISTRO FOTOGRÁFICO PLATO #02 ]</span>
+<span class="font-label-sm text-[10px] text-secondary">3200 × 2000 PX • ARCHIVO AROCENA</span>
+</div>
+</div>
+<div class="flex flex-col gap-1 pt-1">
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-normal">Sopa de Caldillo Lagunero con Chiles Secos</h3>
+<span class="font-label-lg text-label-lg text-primary font-medium shrink-0">$165 MXN</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+          Fondo concentrado de res y tomate criollo aromatizado con orégano silvestre de la sierra y un toque de pulque tlaxcalteca.
+        </p>
+</div>
+<div class="bg-surface-container-low p-2 rounded flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[18px]">palette</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">
+          Inspirado en la obra: <strong class="font-medium text-on-surface">Paisaje del Nazas</strong>
+</span>
+</div>
+<div class="flex items-center justify-between pt-2">
+<button class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1 transition-colors">
+<span>Ver ficha curatorial</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<button class="px-3.5 py-1.5 bg-primary-container text-on-primary rounded font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:opacity-90">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Pedir a sala</span>
+</button>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">REG. AR-03 • SALA DE LA PLATA</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed/60 px-2 py-0.5 rounded font-medium">Especialidad de la Casa</span>
+</div>
+<div class="relative w-full aspect-[16/10] bg-surface-container-high rounded-lg overflow-hidden flex flex-col items-center justify-center group">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Tender confit duck leg coated in glossy deep ash-black pasilla chile mole, topped with toasted Torreón pecan slivers and edible silver dust flakes, presented on an antique colonial pewter plate, refined high contrast photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkFg3cImH-9yYjn6iOctz9s8vZIcbdLWqypmAddTrs8TvrlHQFmpeyxCb_l-axy-OP6XOU99SZqReaYjfGZszbyKD2BBvXZENgEpScy0QQccYXwflfNM9atJAdYUFNzEzWzwAkL_i-fkdzJvQYSfxHCzLcehc1kWF9-zv-N695RIoZ2uiZn0c_vU2YySjkiEGb9AfSDPZnGHjWXKCBCEERq5DgSJGKOclktQX4BLh_"/>
+<div class="absolute inset-0 bg-surface-dim/40 backdrop-blur-[1px] flex flex-col items-center justify-center gap-1 text-on-surface p-4 text-center pointer-events-none">
+<div class="w-8 h-8 rounded-full bg-surface-container-lowest/80 flex items-center justify-center text-primary shadow-sm mb-1">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">[ REGISTRO FOTOGRÁFICO PLATO #03 ]</span>
+<span class="font-label-sm text-[10px] text-secondary">3200 × 2000 PX • ARCHIVO AROCENA</span>
+</div>
+</div>
+<div class="flex flex-col gap-1 pt-1">
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-normal">Mole Cenizo del Desierto con Pato Confitado</h3>
+<span class="font-label-lg text-label-lg text-primary font-medium shrink-0">$340 MXN</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+          Mole elaborado con ceniza de chile pasilla, nuez pecana tostada de Torreón y reducción de vino tinto del Valle de Parras.
+        </p>
+</div>
+<div class="bg-surface-container-low p-2 rounded flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[18px]">palette</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">
+          Inspirado en la obra: <strong class="font-medium text-on-surface">Rutas de la Plata y Comercio Colonial</strong>
+</span>
+</div>
+<div class="flex items-center justify-between pt-2">
+<button class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1 transition-colors">
+<span>Ver ficha curatorial</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<button class="px-3.5 py-1.5 bg-primary-container text-on-primary rounded font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:opacity-90">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Pedir a sala</span>
+</button>
+</div>
+</article>
+<!-- Card 4 -->
+<article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">REG. AR-04 • SALA BOTÁNICA</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-highest px-2 py-0.5 rounded font-medium">🌱 Vegetariano • 🌾 Sin gluten</span>
+</div>
+<div class="relative w-full aspect-[16/10] bg-surface-container-high rounded-lg overflow-hidden flex flex-col items-center justify-center group">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Vibrant crimson roasted beet carpaccio fanned geometrically across white porcelain, adorned with fresh dark green hoja santa leaves, dollops of creamy local requesón cheese and ruby red prickly pear vinaigrette droplets, clean aesthetic studio setup." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs3QdgzTkbh500EY3VV6-JFrLtBB1NT3H_RvVn6gB5trVVm-uDFxVeBVPuMv_YQZcT2Ns4rgvOP3ewU2A9tPSOHAABb2EHVYMKaEkKkXrCnWIW5Lf-2sKPGX_rGEvgKmfUGTmIO-9gEuvJVJm96xF435aU8PVSjKV5BuaSqd58Itb44fZuc-MvYc3w0lv0KgfoZZzWMh8ag4oRJ0jSOBlApzOZ8ZddJEb-xdczKO6B"/>
+<div class="absolute inset-0 bg-surface-dim/40 backdrop-blur-[1px] flex flex-col items-center justify-center gap-1 text-on-surface p-4 text-center pointer-events-none">
+<div class="w-8 h-8 rounded-full bg-surface-container-lowest/80 flex items-center justify-center text-primary shadow-sm mb-1">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">[ REGISTRO FOTOGRÁFICO PLATO #04 ]</span>
+<span class="font-label-sm text-[10px] text-secondary">3200 × 2000 PX • ARCHIVO AROCENA</span>
+</div>
+</div>
+<div class="flex flex-col gap-1 pt-1">
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-normal">Carpaccio de Betabel y Hojas Santas</h3>
+<span class="font-label-lg text-label-lg text-primary font-medium shrink-0">$170 MXN</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+          Láminas finas maceradas en vinagreta de tuna roja de la comarca, semillas de girasol tostadas y requesón artesanal fresco.
+        </p>
+</div>
+<div class="bg-surface-container-low p-2 rounded flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[18px]">palette</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">
+          Inspirado en la obra: <strong class="font-medium text-on-surface">Naturaleza y Huerto Virreinal</strong>
+</span>
+</div>
+<div class="flex items-center justify-between pt-2">
+<button class="font-label-md text-label-md text-secondary hover:text-primary flex items-center gap-1 transition-colors">
+<span>Ver ficha curatorial</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<button class="px-3.5 py-1.5 bg-primary-container text-on-primary rounded font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:opacity-90">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Pedir a sala</span>
+</button>
+</div>
+</article>
+</section>
+<!-- Curatorial Sommelier Pairing Footnote -->
+<section class="mx-margin mb-space-lg p-space-md bg-secondary-container/50 rounded-xl flex flex-col gap-2">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[20px]">wine_bar</span>
+<span class="font-label-md text-label-md uppercase tracking-wider font-medium">Maridaje Novohispano Sugerido</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-secondary-container">
+      Recomendamos acompañar este recorrido gastronómico con nuestra selección de vinos del Valle de Parras (Casa Madero, Don Leo) o destilados artesanales de sotol de Cuatro Ciénegas.
+    </p>
+<a class="font-label-sm text-label-sm text-primary tracking-wider uppercase mt-1 flex items-center gap-1 hover:underline" href="#">
+      Consultar carta de vinos y destilados →
+    </a>
+</section>
+<!-- Interactive Client Script -->
+<script>
+    document.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        if (this.innerText.includes('Pedir a sala')) {
+          const originalContent = this.innerHTML;
+          this.innerHTML = '<span class="material-symbols-outlined text-[16px]">check</span><span>Agregado</span>';
+          this.classList.replace('bg-primary-container', 'bg-tertiary-container');
+          setTimeout(() => {
+            this.innerHTML = originalContent;
+            this.classList.replace('bg-tertiary-container', 'bg-primary-container');
+          }, 1800);
+        }
+      });
+    });
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.03)]" data-active-classes="text-primary font-medium border-t-2 border-primary"><div class="grid grid-cols-5 h-16"><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="inicio" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">home</span><span class="font-label-sm text-label-sm tracking-wide">Inicio</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="menu" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">restaurant_menu</span><span class="font-label-sm text-label-sm tracking-wide">Menú</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="exposiciones" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">museum</span><span class="font-label-sm text-label-sm tracking-wide">Exposiciones</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="reservar" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">calendar_month</span><span class="font-label-sm text-label-sm tracking-wide">Reservar</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="mi-visita" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">bookmark</span><span class="font-label-sm text-label-sm tracking-wide">Mi visita</span></a></div></nav></body></html>

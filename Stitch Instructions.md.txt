@@ -1,0 +1,22 @@
+## Stitch Instructions
+
+Get the images and code for the following Stitch project's screens:
+
+## Project
+Title: Museo Arocena Restaurant App
+ID: 14830678099978312804
+
+## Screens:
+1. Menú Actual — Restaurante Arocena
+    ID: 52f58bf7b172475a990aa7db06b56ba4
+
+2. Exposiciones y Menús — Restaurante Arocena
+    ID: 75f6d8dd00bf47f8bd73a7b50b108f51
+
+3. Inicio — Museo Arocena Restaurante
+    ID: 7f07fe4f784647bbbab4c4b31451d671
+
+4. Detalle de Platillo — Restaurante Arocena
+    ID: 969e3a30eead47738d026c7c168ed97c
+
+Use a utility like `curl -L` to download the hosted URLs.

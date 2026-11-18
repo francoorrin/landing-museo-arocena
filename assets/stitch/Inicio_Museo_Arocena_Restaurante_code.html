@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fdf8f6;}body{overscroll-behavior:none;-webkit-font-smoothing:antialiased;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed-variant": "#6a3b00", "outline-variant": "#dec0b9", "on-primary-fixed-variant": "#85230d", "primary-container": "#b3442b", "tertiary-container": "#925c21", "secondary": "#655d59", "secondary-fixed-dim": "#d0c4bf", "surface-container-high": "#ece7e5", "on-primary-container": "#ffe2dc", "on-surface": "#1c1b1a", "surface": "#fdf8f6", "surface-container-highest": "#e6e2e0", "inverse-surface": "#31302f", "error": "#ba1a1a", "background": "#fdf8f6", "outline": "#8b716c", "on-background": "#1c1b1a", "tertiary": "#764409", "on-secondary-container": "#69615d", "surface-tint": "#a63a22", "tertiary-fixed": "#ffdcbf", "inverse-on-surface": "#f4f0ee", "surface-dim": "#ddd9d7", "primary-fixed": "#ffdad2", "on-tertiary": "#ffffff", "secondary-fixed": "#ece0db", "on-error-container": "#93000a", "error-container": "#ffdad6", "surface-bright": "#fdf8f6", "surface-container-lowest": "#ffffff", "on-tertiary-fixed": "#2d1600", "inverse-primary": "#ffb4a3", "surface-container": "#f1edeb", "primary": "#922d16", "surface-variant": "#e6e2e0", "primary-fixed-dim": "#ffb4a3", "secondary-container": "#e9ddd8", "on-secondary-fixed": "#201a17", "on-secondary": "#ffffff", "on-primary": "#ffffff", "on-primary-fixed": "#3d0600", "on-error": "#ffffff", "on-tertiary-container": "#ffe3cd", "surface-container-low": "#f7f3f1", "on-surface-variant": "#57423d", "tertiary-fixed-dim": "#feb874", "on-secondary-fixed-variant": "#4d4541" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-md": "1.5rem", "space-xl": "2.5rem", "margin": "1.25rem", "space-md": "1rem", "space-xs": "0.25rem", "margin-md": "2.5rem", "gutter": "1rem", "space-sm": "0.5rem", "gutter-lg": "2rem", "space-lg": "1.5rem", "margin-lg": "4rem" }, "fontFamily": { "headline-lg-mobile": ["Newsreader"], "body-lg": ["Hanken Grotesk"], "headline-xl": ["Newsreader"], "body-md": ["Hanken Grotesk"], "body-sm": ["Hanken Grotesk"], "label-lg": ["JetBrains Mono"], "label-sm": ["JetBrains Mono"], "label-md": ["JetBrains Mono"], "headline-lg": ["Newsreader"], "headline-xl-mobile": ["Newsreader"], "headline-md": ["Newsreader"] }, "fontSize": { "headline-lg-mobile": ["26px", {"lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "400"}], "body-lg": ["17px", {"lineHeight": "26px", "fontWeight": "400"}], "headline-xl": ["44px", {"lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "400"}], "body-md": ["15px", {"lineHeight": "22px", "fontWeight": "400"}], "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}], "label-lg": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "500"}], "label-sm": ["9px", {"lineHeight": "12px", "letterSpacing": "0.1em", "fontWeight": "500"}], "label-md": ["11px", {"lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "400"}], "headline-xl-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "400"}], "headline-md": ["22px", {"lineHeight": "28px", "fontWeight": "400"}] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Museo Arocena Restaurante Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrD-JYztuoAltVd-9cnUxUlfx2rBe0O03x5iR3CEj4i_YDf7ywm8JnUsl_kzFje6TyiqSOqFjEpCz8JQeTUsBPHZzEx0drbRQKsl9ZHqqO7XRTSEf22nN7hROAbyihj2qn3XoxMk2n_ha-Dry36Gzs4gDUPNzIKH2Esi1husPAKnQ0lAHz2e9kGWS2k7_8P5lAxGRif_jVRPagrB6-9ijcO_YmIop0777WrZ4ADnsUsmeQ"/><div class="flex flex-col justify-center"><div class="flex items-center gap-1.5"><span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Casino de La Laguna</span><span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Torreón</span></div><span class="font-headline-md text-headline-md leading-none text-on-surface tracking-tight">Inicio</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notificaciones y Sala" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full">
+<!-- Status & Welcome Ribbon -->
+<section class="px-margin pt-4 pb-2">
+<div class="bg-surface-container-low p-3 rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Sala Gastronómica Casino</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Servicio Activo</span>
+</div>
+</section>
+<!-- Hero: Current Exhibition Dialog -->
+<section class="px-margin pt-3 pb-6 flex flex-col gap-4">
+<!-- Visual Placard Placeholder -->
+<div class="relative w-full aspect-[16/9] bg-surface-container-highest rounded-lg overflow-hidden flex flex-col justify-between p-3.5 shadow-sm">
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-80" data-alt="A serene museum gallery inside Museo Arocena featuring colonial viceregal oil paintings with golden baroque frames juxtaposed with minimalist modern exhibition pedestals, bathed in soft museum spotlighting with warm terracotta and limestone architectural tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrGIGy7CQXxr17KyIvs1SifA_iDIGXBYX7u08DHySqTBvSU0HiKI5A9FnL9r3l1epGesxgpfyQ8_x-QKtXR1fmCNPY1KiPCTZE3wi239x6BBlIBgZ7MLtqlKZzA3_TKuE5Thr1D4aM20vSjlRsCTptLMgeK5tofbwkQTsjucJwAg1kjPUjhgxTTLmjpVQpeMLD3JcQp0M4nzMdLg-IfIyQs9OXSX-3dkfpFZFqbkmd"/>
+<!-- Curatorial Badge -->
+<div class="relative z-10 flex items-center justify-between">
+<div class="bg-surface/90 backdrop-blur-md px-2.5 py-1 rounded flex items-center gap-1.5 shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">Exposición Temporal Vigente</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-surface/85 backdrop-blur px-2 py-1 rounded">SALA 01</span>
+</div>
+<!-- Caption Placard -->
+<div class="relative z-10 bg-surface/95 backdrop-blur-md p-2.5 rounded">
+<p class="font-label-sm text-label-sm text-secondary tracking-normal line-clamp-1">
+          [Fotografía: Sala de Colección Virreinal y Arte Contemporáneo]
+        </p>
+</div>
+</div>
+<!-- Curatorial Typography Header -->
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-md text-label-md tracking-widest text-primary uppercase">Temporada 2025</span>
+<span class="font-label-md text-label-md tracking-wider">15 Feb — 30 Jun 2025</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight leading-tight">
+        Tierra y Plata: Mestizaje en La Laguna
+      </h1>
+<div class="mt-2 bg-surface-container-low p-4 rounded-lg flex flex-col gap-1.5">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase font-medium">El menú de la exposición</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Una experiencia gastronómica que reinterpreta el legado novohispano y las rutas mineras del norte a través de 6 tiempos de autor.
+        </p>
+</div>
+</div>
+</section>
+<!-- Interactive Sensory Anchor -->
+<section class="px-margin pb-6">
+<div class="bg-secondary-container text-on-secondary-fixed p-4 rounded-xl flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Pase de Degustación</span>
+<span class="font-headline-md text-headline-md leading-tight text-on-surface">Menú Maridaje 6 Tiempos</span>
+</div>
+<button class="h-10 px-3.5 bg-surface-container-lowest text-primary rounded-lg font-label-md text-label-md uppercase tracking-wider transition-colors flex items-center gap-1" onclick="this.classList.toggle('bg-primary'); this.classList.toggle('text-on-primary');">
+<span>Explorar</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</button>
+</div>
+</section>
+<!-- Main Showcase: Menú Actual -->
+<section class="px-margin pb-8 flex flex-col gap-4">
+<div class="flex items-end justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Catálogo Culinario</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Menú actual en mesa</h2>
+</div>
+<span class="bg-surface-container-high text-on-surface-variant px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider">
+        6 platillos inspirados
+      </span>
+</div>
+<!-- Dishes Card Stack -->
+<div class="flex flex-col gap-3">
+<!-- Dish 1 -->
+<article class="bg-surface-container-low p-4 rounded-xl shadow-sm flex flex-col gap-3 relative transition-transform active:scale-[0.99]">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col gap-1 min-w-0">
+<div class="inline-flex items-center gap-1.5 self-start bg-surface-container px-2 py-0.5 rounded text-primary">
+<span class="material-symbols-outlined text-[12px]">palette</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider truncate max-w-[210px]">
+                Obra: Retablo Guadalupano (S. XVIII)
+              </span>
+</div>
+<h3 class="font-headline-md text-[19px] leading-snug text-on-surface">
+              Gordita Ceremonial de Maíz Azul y Cecina Ahumada
+            </h3>
+</div>
+<span class="font-label-lg text-label-lg text-primary bg-primary-fixed/40 px-2 py-1 rounded whitespace-nowrap">
+            $185 MXN
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Masa nixtamalizada con pigmento orgánico de grana cochinilla, cecina de res curada al mezquite lagunero y reducción de jerez seco.
+        </p>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-secondary bg-surface px-2 py-0.5 rounded">OBJ. 01 / ENTRADA</span>
+<span class="font-label-sm text-label-sm text-secondary">Sala B</span>
+</div>
+<button class="text-primary flex items-center gap-0.5 font-label-sm text-label-sm uppercase tracking-wider hover:opacity-80">
+<span>Ficha de cata</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Dish 2 -->
+<article class="bg-surface-container-low p-4 rounded-xl shadow-sm flex flex-col gap-3 relative transition-transform active:scale-[0.99]">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col gap-1 min-w-0">
+<div class="inline-flex items-center gap-1.5 self-start bg-surface-container px-2 py-0.5 rounded text-primary">
+<span class="material-symbols-outlined text-[12px]">palette</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider truncate max-w-[210px]">
+                Obra: Mapas y Rutas de la Plata
+              </span>
+</div>
+<h3 class="font-headline-md text-[19px] leading-snug text-on-surface">
+              Mole Cenizo del Desierto con Pato Confitado
+            </h3>
+</div>
+<span class="font-label-lg text-label-lg text-primary bg-primary-fixed/40 px-2 py-1 rounded whitespace-nowrap">
+            $340 MXN
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Pasta ceremonial de 28 chiles tatemados con carbón de nogal, muslo de pato bañado en cenizas de sotol y láminas de plata comestible de Peñoles.
+        </p>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-secondary bg-surface px-2 py-0.5 rounded">OBJ. 03 / FUERTE</span>
+<span class="font-label-sm text-label-sm text-secondary">Sala C</span>
+</div>
+<button class="text-primary flex items-center gap-0.5 font-label-sm text-label-sm uppercase tracking-wider hover:opacity-80">
+<span>Ficha de cata</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Dish 3 -->
+<article class="bg-surface-container-low p-4 rounded-xl shadow-sm flex flex-col gap-3 relative transition-transform active:scale-[0.99]">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col gap-1 min-w-0">
+<div class="inline-flex items-center gap-1.5 self-start bg-surface-container px-2 py-0.5 rounded text-primary">
+<span class="material-symbols-outlined text-[12px]">palette</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider truncate max-w-[210px]">
+                Obra: Alegoría de la Abundancia
+              </span>
+</div>
+<h3 class="font-headline-md text-[19px] leading-snug text-on-surface">
+              Mousse de Piñón de Jimulco y Cacao Criollo
+            </h3>
+</div>
+<span class="font-label-lg text-label-lg text-primary bg-primary-fixed/40 px-2 py-1 rounded whitespace-nowrap">
+            $160 MXN
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Bizcocho húmedo de dátil de Viesca, emulsión de piñón rosa silvestre y crumble de cacao con especias de la Nao de China.
+        </p>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-secondary bg-surface px-2 py-0.5 rounded">OBJ. 06 / POSTRE</span>
+<span class="font-label-sm text-label-sm text-secondary">Terraza</span>
+</div>
+<button class="text-primary flex items-center gap-0.5 font-label-sm text-label-sm uppercase tracking-wider hover:opacity-80">
+<span>Ficha de cata</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</article>
+</div>
+<!-- Action Buttons Pair -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<button class="w-full h-12 bg-primary text-on-primary rounded-lg font-label-md text-label-md tracking-wider uppercase flex items-center justify-center gap-1.5 shadow-sm active:bg-on-primary-fixed-variant transition-colors">
+<span class="material-symbols-outlined text-[18px]">restaurant_menu</span>
+<span>Ver menú</span>
+</button>
+<button class="w-full h-12 bg-surface-container-high text-primary hover:bg-secondary-container rounded-lg font-label-md text-label-md tracking-wider uppercase flex items-center justify-center gap-1.5 transition-colors">
+<span class="material-symbols-outlined text-[18px]">table_bar</span>
+<span>Reservar mesa</span>
+</button>
+</div>
+</section>
+<!-- Curatorial Note / Atmosphere Card -->
+<section class="px-margin pb-8">
+<div class="bg-surface-container p-4 rounded-xl flex gap-3.5 items-start">
+<span class="material-symbols-outlined text-primary text-[24px] mt-0.5">local_library</span>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Nota de Conservación y Sala</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Presentando su boleto de acceso a salas del Museo Arocena obtiene un 15% de cortesía en la carta de vinos de Parras y Coahuila.
+        </p>
+</div>
+</div>
+</section>
+<!-- Section: Upcoming Exhibition Teaser -->
+<section class="px-margin pb-10 flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">En preparación</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Próxima exposición, próximo menú</h2>
+</div>
+<div class="bg-tertiary-container text-on-tertiary-container px-2.5 py-1 rounded font-label-sm text-label-sm font-medium">
+        En 42 días
+      </div>
+</div>
+<!-- Teaser Architectural Card -->
+<div class="bg-surface-container-low rounded-xl p-4 flex flex-col gap-4 shadow-sm">
+<!-- Wireframe Teaser Image -->
+<div class="relative w-full aspect-[21/9] bg-surface-container-highest rounded-lg overflow-hidden flex items-center justify-center">
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-60" data-alt="Close-up curatorial drafting table with sketches of modern Mexican modernist art, brush strokes of deep terracotta, and sample dishes being tested in culinary atelier with studio ambient lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2A_e5IzlfihSY16Wm9JNGKszeOWIdo15ybr3sAlvj1jrf1WX8P0fZIV6Csb63cGLhrUV0yTDd1VmU3O4BKuw6L2T_hGVV2l2U2h9y_CkSZlMstflh2LKvCe9XUbHVJhxc3ZcdQFtp4gbtjLb6JvXn_ZCRg5zo6fPFBlduzmKOb2iLYvnblV3sAAkzQP8djZ0EgrasvR6ze-QxE33bp5MBzlksoObshTqh6YLufLUB"/>
+<div class="relative z-10 flex items-center gap-2 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded">
+<span class="material-symbols-outlined text-[16px] text-tertiary">brush</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">
+            [Taller Curatorial en Proceso]
+          </span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-md text-label-md tracking-wider text-primary">Pabellón Moderno</span>
+<span class="font-label-md text-label-md tracking-wider">Julio — Noviembre 2025</span>
+</div>
+<h3 class="font-headline-md text-[20px] leading-snug text-on-surface">
+          Vanguardias Mexicanas: Del Taller al Lienzo
+        </h3>
+<div class="mt-1 bg-surface-container p-3 rounded-lg flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">psychology_alt</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            El chef residente se encuentra en proceso de conceptualización junto al equipo curatorial del museo para sintetizar texturas del muralismo y la abstracción geométrica.
+          </p>
+</div>
+</div>
+<!-- Action Teaser Notification Button -->
+<button class="w-full py-2.5 bg-surface text-secondary hover:text-primary rounded-lg font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 transition-colors" id="notifyBtn">
+<span class="material-symbols-outlined text-[16px]">notifications_active</span>
+<span id="notifyBtnText">Recibir invitación a pre-estreno</span>
+</button>
+</div>
+</section>
+<!-- Interactive script for wireframe state toggle -->
+<script>
+    const notifyBtn = document.getElementById('notifyBtn');
+    const notifyBtnText = document.getElementById('notifyBtnText');
+    if (notifyBtn) {
+      notifyBtn.addEventListener('click', () => {
+        if (notifyBtnText.innerText.includes('INVITACIÓN')) {
+          notifyBtnText.innerText = 'Notificación activada';
+          notifyBtn.classList.add('text-primary', 'bg-primary-fixed');
+        } else {
+          notifyBtnText.innerText = 'Recibir invitación a pre-estreno';
+          notifyBtn.classList.remove('text-primary', 'bg-primary-fixed');
+        }
+      });
+    }
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.03)]" data-active-classes="text-primary font-medium border-t-2 border-primary"><div class="grid grid-cols-5 h-16"><a aria-current="page" class="flex flex-col items-center justify-center h-full min-h-[44px] transition-colors text-primary font-medium border-t-2 border-primary" data-path="inicio" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">home</span><span class="font-label-sm text-label-sm tracking-wide">Inicio</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="menu" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">restaurant_menu</span><span class="font-label-sm text-label-sm tracking-wide">Menú</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="exposiciones" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">museum</span><span class="font-label-sm text-label-sm tracking-wide">Exposiciones</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="reservar" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">calendar_month</span><span class="font-label-sm text-label-sm tracking-wide">Reservar</span></a><a class="flex flex-col items-center justify-center h-full min-h-[44px] text-secondary hover:text-on-surface transition-colors" data-path="mi-visita" href="#"><span class="material-symbols-outlined text-[20px] mb-0.5">bookmark</span><span class="font-label-sm text-label-sm tracking-wide">Mi visita</span></a></div></nav></body></html>
